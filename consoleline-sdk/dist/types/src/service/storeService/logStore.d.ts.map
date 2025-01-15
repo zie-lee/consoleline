@@ -1,0 +1,1 @@
+{"version":3,"file":"logStore.d.ts","sourceRoot":"","sources":["../../../../../src/service/storeService/logStore.ts"],"names":[],"mappings":"AAAA,OAAO,SAAS,MAAM,aAAa,CAAC;AAEpC,MAAM,CAAC,OAAO,OAAO,QAAQ;IAClB,KAAK,YAA4B;IAExC,UAAU;IACH,UAAU,CAAC,GAAG,KAAA;IAIrB,WAAW;IACE,aAAa;IAI1B,aAAa;IACN,aAAa;IAKb,gBAAgB;;;;CAI1B"}

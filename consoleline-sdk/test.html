@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"></head>
+    </head>
+    <body>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="./dist/consoleline.js"></script>
+        <script>
+            console.log(new Conoleline({
+                themeColor: '#800080',
+                uploadBaseUrl: 'http://localhost:3000',
+                previewBaseUrl: 'http://localhost:4000',
+                description: '这是一个什么项目呀'
+            }))
+
+            axios({
+                url: 'https://www.jb51.net/server/325020a0d.html',
+                method: 'GET',
+                body: { a: 11 },
+            }).then((res) => {
+                console.log(res, 7777);
+            });
+            axios({
+                url: 'https://dms.cloud.tencent.com/api/mysql/schemaAdmin/commonSql',
+                method: 'POST',
+                body: { b: 11 },
+            }).then((res) => {
+                console.log(res, 888);
+            });
+        </script>
+        <div>demo</div>
+    </body>
+</html>

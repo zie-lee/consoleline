@@ -1,0 +1,58 @@
+.log-detail-storage {
+    margin: 0 10%;
+
+    .tabs {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fbf9fe;
+        font-size: 14px;
+        color: #222;
+
+        .tab-item {
+            position: relative;
+            width: 33.3333%;
+            padding: 5px 10%;
+            cursor: pointer;
+        }
+
+        .active {
+            border-bottom:  1px solid #4499ee;
+        }
+    }
+
+    .info-item {
+        border-bottom: 1px solid #f1f1f1;
+        color: #222;
+        word-break: break-all;
+        line-height: 18px;
+        min-height: 18px;
+    }
+
+    .empty-row {
+        color:  #888;
+        font-size: 14px;
+        border-bottom: 1px solid #f1f1f1;
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+    .info-key {
+        padding: 5px 10px;
+        border-right: 1px solid #f1f1f1;
+        display: inline-block;
+        width: 40%;
+        word-break: break-all;
+        line-height: 18px;
+        font-size: 14px;
+    }
+
+    .info-value {
+        padding: 5px 10px;
+        display: inline-block;
+        flex: 1;
+        word-break: break-all;
+        line-height: 18px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,80 @@
+.log-detail-log {
+    margin: 20px 10%;
+
+    .empty-row {
+        color:  #888;
+        font-size: 14px;
+        border-bottom: 1px solid #f1f1f1;
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+    .log-item {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #f1f1f1;
+        padding: 5px;
+
+        .log-time {
+            font-size: 12px;
+            color: #888;
+        }
+
+        .log-info-wrapper {
+        }
+
+        .log-info-row {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    }
+
+    .log-type-info {
+        color: #6a5acd;
+        margin-right: 5px;
+    }
+
+    .log-type-error {
+        color: #f50;
+        margin-right: 5px;
+    }
+
+    .log-type-log {
+        color: #222;
+        margin-right: 5px;
+    }
+
+    .log-type-warn {
+        color: orange;
+        margin-right: 5px;
+    }
+
+    .log-object {
+        cursor: pointer;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .arrow-down {
+        width: 0;
+        height: 0;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 6px solid black; /* 改变颜色可以改变箭头颜色 */
+        margin-right: 5px;
+    }
+
+    .arrow-right {
+        width: 0;
+        height: 0;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-bottom: 6px solid black; /* 改变颜色可以改变箭头颜色 */
+        transform: rotate(90deg);
+        margin-right: 5px;
+    }
+}
