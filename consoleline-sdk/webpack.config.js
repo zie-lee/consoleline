@@ -9,7 +9,7 @@ module.exports = {
         path:  path.resolve(__dirname, 'dist'),
         filename: 'consoleline.js',
         library: {
-            name: 'Conoleline',
+            name: 'Consoleline',
             type: 'umd',
             umdNamedDefine: true,
             export: 'default',

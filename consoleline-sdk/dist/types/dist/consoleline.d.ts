@@ -1,7 +1,7 @@
 declare const _exports: {
-    Conoleline: {};
+    Consoleline: {};
 } | {
-    Conoleline: {};
+    Consoleline: {};
 };
 export = _exports;
 //# sourceMappingURL=consoleline.d.ts.map

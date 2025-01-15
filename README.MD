@@ -25,7 +25,7 @@ React、Nodejs、Nestjs、mysql
 <script src="./dist/consoleline.js"></script>
 
 <script>
-console.log(new Conoleline({
+console.log(new Consoleline({
     themeColor: '#800080',
     uploadBaseUrl: 'http://localhost:3000',
     previewBaseUrl: 'http://localhost:4000',
@@ -36,10 +36,10 @@ console.log(new Conoleline({
 
 #### 2、项目引入
 ```js
-import Conoleline from 'consoleline' 
+import Consoleline from 'consoleline' 
 
 <script>
-console.log(new Conoleline({
+console.log(new Consoleline({
     themeColor: '#800080',
     uploadBaseUrl: 'http://localhost:3000',
     previewBaseUrl: 'http://localhost:4000/#/log/detail',
