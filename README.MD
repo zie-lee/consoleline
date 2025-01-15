@@ -8,11 +8,11 @@ React、Nodejs、Nestjs、mysql
 
 ### 示例
 #### 1、sdk效果
-![alt text](blob/main/assets/sdk.png)
+![alt text](./assets/sdk.png)
 #### 1、log记录效果
-![alt text](blob/main/assets/log.png)
+![alt text](./assets/log.png)
 #### 1、接口请求效果
-![alt text](blob/main/assets/request.png)
+![alt text](./assets/request.png)
 
 ### 设计
 1、服务端【consoleline-server】需要用户部署在服务器，并提供数据库,在table-sql目录下存表结构，请记住需要添加log_id 索引）<br/>
