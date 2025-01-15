@@ -1,15 +1,18 @@
 ## consoleLine 日志收集与在线预览
 
+### 技术栈
+React、Nodejs、Nestjs、mysql
+
 ### 目的
-通过sdk收集前端调试console日志、接口请求信息、 客户端缓存信息、 性能信息，实现在线预览用户行为记录
+基于vconsole二次开发，通过sdk收集前端调试console日志、接口请求信息、 客户端缓存信息、 性能信息，实现在线预览用户行为记录
 
 ### 示例
 #### 1、sdk效果
-![alt text](https://github.com/zie-lee/consoleline/blob/main/assets/sdk.jpg)
+![alt text](assets/sdk.jpg)
 #### 1、log记录效果
-![alt text](https://github.com/zie-lee/consoleline/blob/main/assets/log.jpg)
+![alt text](assets/log.jpg)
 #### 1、接口请求效果
-![alt text](https://github.com/zie-lee/consoleline/blob/main/assets/request.jpg)
+![alt text](assets/request.jpg)
 
 ### 设计
 1、服务端【consoleline-server】需要用户部署在服务器，并提供数据库,在table-sql目录下存表结构，请记住需要添加log_id 索引）<br/>
