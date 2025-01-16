@@ -46,7 +46,10 @@ export class LogService {
   /** 根据日志id查询log记录 */
   async queryLogList(params: queryLogListReq): Promise<Array<LogItem>> {
     if (!params.logId) return [];
-    return await this.logItemRepository.findBy({ logId: params.logId });
+    return await this.logItemRepository.find({
+      where: { logId: params.logId },
+      order: { time: 'ASC' },
+    });
   }
 
   /** 根据日志id查询请求记录 */
@@ -54,7 +57,10 @@ export class LogService {
     params: queryRequestListReq,
   ): Promise<Array<RequestItem>> {
     if (!params.logId) return [];
-    return await this.requestItemRepository.findBy({ logId: params.logId });
+    return await this.requestItemRepository.find({
+      where: { logId: params.logId },
+      order: { startTime: 'ASC' },
+    });
   }
 
   /** 根据日志id查询缓存记录 */
