@@ -4,6 +4,7 @@
   "description": "H5日志服务",
   "main": "index.js",
   "scripts": {},
+  "keywords": ["console", "log" ,"日志", "node", "nestjs"],
   "author": "",
   "license": "ISC",
   "devDependencies": {}

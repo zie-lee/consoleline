@@ -3,10 +3,10 @@
 ### 技术栈
 React、Nodejs、Nestjs、mysql
 
+### 源代码地址（https://github.com/zie-lee/consoleline）
+
 ### 目的
 基于vconsole二次开发，通过sdk收集前端调试console日志、接口请求信息、 客户端缓存信息、 性能信息，实现在线预览用户行为记录
-
-### 源代码地址（https://github.com/zie-lee/consoleline）
 
 ### 示例
 #### 1、sdk效果(assets/sdk.png)
